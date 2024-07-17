@@ -14,6 +14,21 @@ offset_left = 40.0
 offset_top = 250.0
 offset_right = 320.0
 offset_bottom = 312.0
-text = "Hello World"
+text = "Press"
+
+[node name="Label" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="Label2" type="Label" parent="."]
+offset_left = 356.0
+offset_right = 396.0
+offset_bottom = 23.0
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_left = 74.0
+offset_top = 55.0
+offset_right = 316.0
+offset_bottom = 222.0
 
 [connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]
